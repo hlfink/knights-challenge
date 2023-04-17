@@ -1,0 +1,68 @@
+<div *ngIf="!this.heroes" class="search-container" > 
+  <form>
+    <span class="bi bi-search"></span>
+    <input type="text" placeholder="Find by id knight" (input)="find($event)">
+</form>
+</div>
+
+<div *ngIf="knightListFilter.length == 0 " class="alert alert-info" role="alert" style="margin-top: 30px;">
+  Knights not found
+</div>
+
+<div *ngIf="knightListFilter.length > 0 " class="row" style="margin-top: 30px;">
+  
+    <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">NickName</th>
+        <th scope="col">Age</th>
+        <th scope="col">Weapons</th>
+        <th scope="col">Attribute</th>
+        <th scope="col">Attack</th>
+        <th scope="col">Experiense</th>
+        <th>&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let item of knightListFilter">
+      <tr >
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.nickName}}</td>
+        <td>{{item.age}}</td>
+        <td>{{item.weapons}}</td>
+        <td>{{item.attribute}}</td>
+        <td>{{item.attack}}</td>
+        <td>{{item.experiense}}</td>
+        <td><span class="bi bi-trash delete " (click)="openModal(item.id)"></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div
+  class="modal fade"
+  id="confirmModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirm</h5>
+      </div>
+      <div class="modal-body">
+        <h3>Are you sure you want to delete?</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)="closeModal()">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" (click)="remove()">
+          Delete 
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Knights.Challenge.Core.Application/1.0.0": {
+        "dependencies": {
+          "Knights.Challenge.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Knights.Challenge.Core.Application.dll": {}
+        }
+      },
+      "Knights.Challenge.Core.Domain/1.0.0": {
+        "runtime": {
+          "Knights.Challenge.Core.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Knights.Challenge.Core.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Knights.Challenge.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

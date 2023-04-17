@@ -1,0 +1,199 @@
+<div  style="margin-top: 10px;">
+  <div *ngIf="success == true" class="alert alert-success d-flex align-items-center" role="alert">
+    <strong> knight created with success!</strong>
+  </div>
+<form (ngSubmit)="submit()" [formGroup]="newForm" #formDir="ngForm">
+    <div class="form-group">
+       <label for="name">Name</label>
+          <input type="text" 
+            class="form-control" 
+            formControlName="name"
+            placeholder="your name"
+            required
+            >
+            <div *ngIf="formDir.submitted && f['name'].errors" class="invalid-feedback"></div>
+            <div *ngIf="f['name'].errors?.['required']">Name is required</div> 
+            
+    </div> 
+    <div class="form-group">
+        <label for="nickname">Nickname</label>
+           <input type="text" 
+             class="form-control" 
+             formControlName="nickname"
+             placeholder="your nickname"
+             required
+             >
+             <div *ngIf="formDir.submitted && f['nickname'].errors" class="invalid-feedback"></div>
+             <div *ngIf="f['nickname'].errors?.['required']">Nickname is required</div> 
+     </div> 
+     <div class="form-group">
+        <label for="birthday">Birthday</label>
+           <input type="date" 
+             class="form-control" 
+             formControlName="birthday"
+             placeholder="your birthday"
+             required
+             >
+             <div *ngIf="formDir.submitted && f['birthday'].errors" class="invalid-feedback"></div>
+             <div *ngIf="f['birthday'].errors?.['required']">Birthday is required</div> 
+     </div> 
+     <div class="form-group">
+        <label for="keyAttribute">Attribute Key</label>
+           <input type="text" 
+             class="form-control" 
+             formControlName="keyAttribute"
+             placeholder="Attribute key"
+             required
+             >
+             <div *ngIf="formDir.submitted && f['keyAttribute'].errors" class="invalid-feedback"></div>
+             <div *ngIf="f['keyAttribute'].errors?.['required']">Attribute Key is required</div> 
+     </div> 
+   <div class="jumbotron">
+      <h2>Attibutes</h2>
+       <div class="form-group">
+         <label for="strength">Strength</label>
+            <input type="number" 
+              class="form-control" 
+              formControlName="strength"
+              required
+              >
+              <div *ngIf="formDir.submitted && f['strength'].errors" class="invalid-feedback"></div>
+              <div *ngIf="f['strength'].errors?.['required']">Attribute strength is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="dexterity">Dexterity</label>
+            <input type="number" 
+              class="form-control" 
+              formControlName="dexterity"
+              required
+              >
+              <div *ngIf="formDir.submitted && f['dexterity'].errors" class="invalid-feedback"></div>
+              <div *ngIf="f['dexterity'].errors?.['required']">Attribute dexterity is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="constitution">Constitution</label>
+            <input type="number" 
+              class="form-control" 
+              formControlName="constitution"
+              required
+              >
+              <div *ngIf="formDir.submitted && f['constitution'].errors" class="invalid-feedback"></div>
+              <div *ngIf="f['constitution'].errors?.['required']">Attribute constitution is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="intelligence">Intelligence</label>
+            <input type="number" 
+              class="form-control" 
+              formControlName="intelligence"
+              required
+              >
+              <div *ngIf="formDir.submitted && f['intelligence'].errors" class="invalid-feedback"></div>
+              <div *ngIf="f['intelligence'].errors?.['required']">Attribute intelligence is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="charisma">Charisma</label>
+            <input type="number" 
+              class="form-control" 
+              formControlName="charisma"
+              required
+              >
+              <div *ngIf="formDir.submitted && f['charisma'].errors" class="invalid-feedback"></div>
+              <div *ngIf="f['charisma'].errors?.['required']">Attribute charisma is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="wisdom">Wisdom</label>
+            <input type="number" 
+              class="form-control" 
+              formControlName="wisdom"
+              required
+              >
+              <div *ngIf="formDir.submitted && f['wisdom'].errors" class="invalid-feedback"></div>
+              <div *ngIf="f['wisdom'].errors?.['required']">Attribute wisdom is required</div> 
+        </div> 
+   </div>
+   <div class="jumbotron">
+      <h2>Weapon</h2>
+      <form  [formGroup]="weaponForm" #formDir="ngForm">
+      <div class="form-group">
+         <label for="wname">Name</label>
+            <input type="text" 
+              class="form-control" 
+              formControlName="wname"
+              required
+              >
+              <div *ngIf="w['wname'].errors" class="invalid-feedback"></div>
+              <div *ngIf="w['wname'].errors?.['required']">Weapon name is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="mod">Mod</label>
+            <input type="number" 
+              class="form-control" 
+              formControlName="mod"
+              required
+              >
+              <div *ngIf="w['mod'].errors" class="invalid-feedback"></div>
+              <div *ngIf="w['mod'].errors?.['required']">Weapon mod is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="wattr">Attribute</label>
+            <input type="text" 
+              class="form-control" 
+              formControlName="wattr"
+              required
+              >
+              <div *ngIf="w['wattr'].errors" class="invalid-feedback"></div>
+              <div *ngIf="w['wattr'].errors?.['required']">Weapon attribute is required</div> 
+        </div> 
+        <div class="form-group">
+         <label for="equipped">Equipped</label>
+            <select 
+              class="form-control" 
+              formControlName="equipped"
+              >
+              <option value="0" >No</option>
+              <option value="1" >Yes</option>
+            </select>
+            <div *ngIf="w['equipped'].errors" class="invalid-feedback"></div>
+            <div *ngIf="w['equipped'].errors?.['required']">Weapon equipped is required</div> 
+        </div>
+        <div class="form-group">
+         <button type="button" (click)="addWeapon()" class="btn btn-primary">Add</button>
+        </div>
+      </form>
+      <div *ngIf="knight.weapons.length == 0 " class="btn-warning">Weapon is required</div>
+      <div *ngIf="knight.weapons.length > 0 " class="row" style="margin-top: 10px;">
+        <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Mod</th>
+            <th scope="col">Attribute</th>
+            <th scope="col">Equipped</th>
+            <th>&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let item of knight.weapons; index as i">
+          <tr >
+            <th scope="row">{{item.name}}</th>
+            <td>{{item.mod}}</td>
+            <td>{{item.attr}}</td>
+            <td>{{item.equipped}}</td>
+            <td>
+              <span class="bi bi-trash delete " (click)="deleteWeapon(i)"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+   </div>
+     <div class="form-group">
+        <button type="submit" class="btn btn-primary">Register</button>
+        <button
+          type="button"
+          class="btn btn-warning float-right"
+          (click)="reset()"
+        >
+          Reset
+        </button>
+     </div>
+</form>
+</div>

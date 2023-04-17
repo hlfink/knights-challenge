@@ -1,0 +1,12 @@
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\bin\Debug\net6.0\Knights.Challenge.Core.Domain.deps.json
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\bin\Debug\net6.0\Knights.Challenge.Core.Domain.dll
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\bin\Debug\net6.0\Knights.Challenge.Core.Domain.pdb
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\Knights.Challenge.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\Knights.Challenge.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\Knights.Challenge.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\Knights.Challenge.Core.Domain.AssemblyInfo.cs
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\Knights.Challenge.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\Knights.Challenge.Core.Domain.dll
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\refint\Knights.Challenge.Core.Domain.dll
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\Knights.Challenge.Core.Domain.pdb
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Domain\obj\Debug\net6.0\ref\Knights.Challenge.Core.Domain.dll

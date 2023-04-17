@@ -1,0 +1,17 @@
+.search-container form{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.search-container span{
+    position: absolute;
+    top : 8px;
+    left: 8px;
+}
+
+.search-container input{
+    padding: 0.5em;
+    width: 100%;
+    text-align: center;
+}

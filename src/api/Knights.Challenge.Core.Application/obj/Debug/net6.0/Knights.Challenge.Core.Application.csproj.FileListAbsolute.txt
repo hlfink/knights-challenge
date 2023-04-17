@@ -1,0 +1,15 @@
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\bin\Debug\net6.0\Knights.Challenge.Core.Application.deps.json
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\bin\Debug\net6.0\Knights.Challenge.Core.Application.dll
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\bin\Debug\net6.0\Knights.Challenge.Core.Application.pdb
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\bin\Debug\net6.0\Knights.Challenge.Core.Domain.dll
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\bin\Debug\net6.0\Knights.Challenge.Core.Domain.pdb
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.csproj.AssemblyReference.cache
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.AssemblyInfoInputs.cache
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.AssemblyInfo.cs
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.csproj.CopyComplete
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.dll
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\refint\Knights.Challenge.Core.Application.dll
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\Knights.Challenge.Core.Application.pdb
+C:\Users\hfink\source\repos\knights-challenge\src\api\Knights.Challenge.Core.Application\obj\Debug\net6.0\ref\Knights.Challenge.Core.Application.dll
